@@ -27,7 +27,7 @@ import { RouterLink } from "vue-router";
 
 const information = ref([
   {
-    title: "fifa23",
+    title: "FIFA23",
     href: "/fifa23",
     img: new URL("@/assets/images/fifia23.jpg", import.meta.url).href,
     description:
