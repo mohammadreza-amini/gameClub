@@ -24,37 +24,8 @@
 <script setup>
 import { ref } from "vue";
 import { RouterLink } from "vue-router";
+defineProps(['information']);
 
-const information = ref([
-  {
-    title: "FIFA23",
-    href: "/fifa23",
-    img: new URL("@/assets/images/fifia23.jpg", import.meta.url).href,
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, non?",
-  },
-  {
-    title: "Devil May Cry",
-    href: "/dmc",
-    img: new URL("@/assets/images/dmc.jpg", import.meta.url).href,
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, non?",
-  },
-  {
-    title: "Need for Speed",
-    href: "/nfs",
-    img: new URL("@/assets/images/nffs.jpg", import.meta.url).href,
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, non?",
-  },
-  {
-    title: "Watch Dogs",
-    href: "/wdg",
-    img: new URL("@/assets/images/wdg.jpg", import.meta.url).href,
-    description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus, non?",
-  },
-]);
 </script>
 <style scoped>
 .image-card-game {
