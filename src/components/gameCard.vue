@@ -13,7 +13,9 @@
         <p class="mb-2" style="text-align: justify">
           {{ info.description }}
         </p>
-        <RouterLink :to="info.href" class="btn btn-info px-3 py-2 rounded"
+        <RouterLink
+          :to="info.href"
+          class="btn btn-secondary text-white px-3 py-2 rounded"
           >more</RouterLink
         >
       </div>
@@ -24,8 +26,7 @@
 <script setup>
 import { ref } from "vue";
 import { RouterLink } from "vue-router";
-defineProps(['information']);
-
+defineProps(["information"]);
 </script>
 <style scoped>
 .image-card-game {

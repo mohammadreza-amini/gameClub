@@ -34,6 +34,15 @@
             </router-link>
           </li>
           <li class="nav-item">
+            <router-link
+              to="/blog"
+              class="nav-link"
+              active-class="custom-active"
+            >
+              blog
+            </router-link>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#">Projects</a>
           </li>
           <li class="nav-item">

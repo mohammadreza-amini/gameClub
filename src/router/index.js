@@ -5,6 +5,7 @@ import WatchDogsView from "@/views/watchDogsView.vue";
 import fifaView from "@/views/fifaView.vue";
 import dmcViwe from "@/views/dmcViwe.vue";
 import nfsView from "@/views/nfsView.vue";
+import BlogView from "@/views/blogView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -38,6 +39,11 @@ const router = createRouter({
       path: "/nfs",
       name: "Need for Speed",
       component: nfsView,
+    },
+    {
+      path: "/blog",
+      name: "Blog",
+      component: BlogView,
     },
   ],
 });
