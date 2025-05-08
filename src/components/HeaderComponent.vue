@@ -1,7 +1,7 @@
 <template>
   <header
     class="bg-light py-2 position-fixed"
-    style="top: 0; right: 0; left: 0"
+    style="top: 0; right: 0; left: 0; z-index: 10;"
   >
     <div class="container">
       <div class="row align-items-center">
