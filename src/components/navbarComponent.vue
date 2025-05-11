@@ -26,15 +26,6 @@
           </li>
           <li class="nav-item">
             <router-link
-              to="/about"
-              class="nav-link"
-              active-class="custom-active"
-            >
-              About
-            </router-link>
-          </li>
-          <li class="nav-item">
-            <router-link
               to="/blog"
               class="nav-link"
               active-class="custom-active"
@@ -43,10 +34,13 @@
             </router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <router-link
+              to="/contact"
+              class="nav-link"
+              active-class="custom-active"
+            >
+              Contact
+            </router-link>
           </li>
         </ul>
       </div>
@@ -61,7 +55,5 @@ import { RouterLink } from "vue-router";
 <style scoped>
 .custom-active {
   font-weight: bold;
-  /* color: #000 !important; */
-  /* text-decoration: underline; */
 }
 </style>
